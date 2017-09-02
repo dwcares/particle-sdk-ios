@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = "Particle-SDK"
+    s.name             = "Particle-watch-SDK"
     s.version          = "0.7.0"
     s.summary          = "Particle iOS Cloud SDK for interacting with Particle powered devices (Core/Photon/Electron and more)"
     s.description      = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.screenshots      = "http://i59.tinypic.com/mrthqc.jpg"
     s.license          = 'Apache 2.0'
     s.author           = { "Particle" => "ido@particle.io" }
-    s.source           = { :git => "https://github.com/spark/particle-sdk-ios.git", :tag => s.version.to_s }
+    s.source           = { :git => "https://github.com/dwcares/particle-sdk-ios.git", :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/particle'
 
     s.ios.deployment_target = '8.0'
